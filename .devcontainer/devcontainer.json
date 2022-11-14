@@ -12,10 +12,15 @@
 			// Options
 			"INSTALL_MAVEN": "true",
 			"MAVEN_VERSION": "3.8.5",
-			"INSTALL_GRADLE": "false",
+			"INSTALL_GRADLE": "true",
 			"NODE_VERSION": "lts/*"
 		}
 	},
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:1": {
+		  "version": "latest"
+		}
+	  },
 		
 	// Configure tool-specific properties.
 	"customizations": {
